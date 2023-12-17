@@ -52,6 +52,13 @@ p {
   color: var(--gray-700);
 }
 
+.demo {
+  border: 3px solid black;
+  margin-top: 2rem;
+
+}
+
+
 main {
   width: 100%;
   min-height: 100%;
@@ -137,21 +144,21 @@ main {
   margin-inline-start: 0.25rem;
 }
 
-.social-links {
-  display: flex;
-  align-items: center;
-  gap: 0.73rem;
-  margin-top: 1.5rem;
-}
-
-.social-links path {
-  transition: fill 0.3s ease;
-  fill: var(--gray-400);
-}
-
-.social-links a:hover svg path {
-  fill: var(--gray-900);
-}
+//.social-links {
+//  display: flex;
+//  align-items: center;
+//  gap: 0.73rem;
+//  margin-top: 1.5rem;
+//}
+//
+//.social-links path {
+//  transition: fill 0.3s ease;
+//  fill: var(--gray-400);
+//}
+//
+//.social-links a:hover svg path {
+//  fill: var(--gray-900);
+//}
 
 @media screen and (max-width: 650px) {
   .content {

@@ -10,5 +10,15 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'angular-api';
+  data= {
+    title: 'angular-api',
+  }
+
+  onLogoClick(){
+    alert("angular-api")
+  }
+
+  onKeyUp(newTitle:string) {
+    this.data.title = newTitle;
+  }
 }
